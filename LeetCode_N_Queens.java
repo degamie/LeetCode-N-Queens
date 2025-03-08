@@ -1,5 +1,5 @@
 class Solution {
-  //TC(N))(
+//TC(N)==O(N) and S(C(N))==O(N) as it requires Dynamic Memory alloc iteratively
   public List<List<String>> solveNQueens(int n) {//solveNQueens func declare
     List<List<String>> ans = new ArrayList<>();//Output Delcare
     char[][] board = new char[n][n];//Board declare
